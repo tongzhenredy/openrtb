@@ -1,0 +1,23 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  
+  <name>Demand Side Client Reference Implementation</name>
+  
+  <groupId>org.openrtb.dsp</groupId>
+  <artifactId>dsp-client</artifactId>
+
+  <parent>
+    <groupId>org.openrtb</groupId>
+    <artifactId>dsp</artifactId>
+    <version>0.1-SNAPSHOT</version>
+  </parent>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openrtb.dsp</groupId>
+      <artifactId>dsp-intf</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+
+</project>
