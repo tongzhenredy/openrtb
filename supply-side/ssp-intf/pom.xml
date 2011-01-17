@@ -1,0 +1,24 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  
+  <name>Supply Side Client Interface</name>
+  
+  <groupId>org.openrtb.ssp</groupId>
+  <artifactId>ssp-intf</artifactId>
+
+  <parent>
+    <groupId>org.openrtb</groupId>
+    <artifactId>ssp</artifactId>
+    <version>0.1-SNAPSHOT</version>
+  </parent>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.openrtb</groupId>
+  		<artifactId>common</artifactId>
+  		<version>0.1-SNAPSHOT</version>
+  		<type>jar</type>
+  		<scope>compile</scope>
+  	</dependency>
+  </dependencies>
+
+</project>
