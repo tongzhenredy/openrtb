@@ -1,0 +1,40 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <name>Demand Side Core Implementation</name>
+
+  <groupId>org.openrtb.dsp</groupId>
+  <artifactId>dsp-core</artifactId>
+
+  <parent>
+    <groupId>org.openrtb</groupId>
+    <artifactId>dsp</artifactId>
+    <version>0.1-SNAPSHOT</version>
+  </parent>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openrtb.dsp</groupId>
+      <artifactId>dsp-intf</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.openrtb.dsp</groupId>
+      <artifactId>dsp-client</artifactId>
+      <version>${project.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-httpclient</groupId>
+      <artifactId>commons-httpclient</artifactId>
+    </dependency>
+  </dependencies>
+
+</project>
