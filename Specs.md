@@ -1,0 +1,1 @@
+Going forward, all specifications and updates will be published in the [downloads](http://code.google.com/p/openrtb/downloads/list) section.
